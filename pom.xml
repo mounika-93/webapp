@@ -23,12 +23,13 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
+                        <version>1.2.15</version>
 		</dependency>
 		<!--  Demo Setup -->
 		<dependency>
 			<groupId>org.hspconsortium.carewebframework</groupId>
 			<artifactId>cwf-demo-setup</artifactId>
-			<version>3.0.0-RC4</version>
+			<version>{cwf.plugins.version}</version>
 		</dependency>
 		<!--  HSPC CWF plugins -->
 		<dependency>
